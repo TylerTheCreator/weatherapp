@@ -14,8 +14,10 @@ function pingPong(goal) {
   return output;
 }
 
+var pingPong = require('./pingpong.js').pingPong;
+
 $(document).ready(function() {
-  $('#ping-pong').submit(function(event) {
+  $('#pingpong').submit(function(event) {
     event.preventDefault();
     var goal = $('#goal').val();
     var output = pingPong(goal);
