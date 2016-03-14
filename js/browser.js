@@ -14,7 +14,7 @@ function pingPong(goal) {
   return output;
 }
 
-var pingPong = require('./pingpong.js').pingPong;
+var pingPong = require('./../js/pingpong.js').pingPong;
 
 $(document).ready(function() {
   $('#pingpong').submit(function(event) {
