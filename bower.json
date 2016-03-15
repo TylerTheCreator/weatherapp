@@ -1,0 +1,20 @@
+{
+  "name": "nodepong",
+  "description": "node/gulp practice",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/HeyConner/nodepong",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6",
+    "moment": "^2.12.0"
+  }
+}
